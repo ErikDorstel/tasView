@@ -1,2 +1,2 @@
 # tasView
-simple Javascript Web UI to manage Tasmota devices via mqtt websocket protocol
+simple javascript web UI to manage Tasmota IoT devices via mqtt websocket protocol
