@@ -89,7 +89,8 @@ function doScale(value,unit) {
   if (unit=="A" && value<1) { value*=1000; unit="mA"; }
   if (unit=="W" && value<1) { value*=1000; unit="mW"; }
   if (unit=="kWh" && value<3) { value*=1000; unit="Wh"; }
-  return Math.round(value*10)/10+unit; }
+  if (! isNaN(value)) { value=Math.round(value*10)/10; }
+  return value+unit; }
 
 function decodeJSON(input) { try { output=JSON.parse(input); } catch(err) { output=""; } return output; }
 
