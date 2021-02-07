@@ -14,4 +14,4 @@ The auto discovery function evaluates LWT (last will testament) messages and use
 The following javascript library is required for mqtt websocket communication and must be placed in the same directory as the tasView html page.
 https://github.com/hivemq/hivemq-mqtt-web-client/blob/master/js/mqttws31.js
 #### Screenshot
-![IMAGE ALT TEXT HERE](http://www.dorstel.de/github/tasView.png)
+![IMAGE ALT TEXT HERE](http://www.dorstel.de/github/tasView.png?)
