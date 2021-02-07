@@ -12,8 +12,8 @@ simple javascript web UI to manage Tasmota IoT devices via mqtt websocket protoc
 The auto discovery function trigger on LWT (last will testament) messages and uses Tasmota mqtt status commands to query the properties of the Tasmota devices.
 #### MQTT client websocket library
 The following javascript library is required for mqtt websocket communication and must be placed in the same directory as the tasView html page.
+https://github.com/hivemq/hivemq-mqtt-web-client/blob/master/js/mqttws31.js
 #### MQTT broker
 tasView requires a websocket enabled mqtt broker. The hostname of the mqtt broker and the websocket tcp port can be configured in the tasView HTML page.
-https://github.com/hivemq/hivemq-mqtt-web-client/blob/master/js/mqttws31.js
 #### Screenshot
 ![IMAGE ALT TEXT HERE](http://www.dorstel.de/github/tasView.png)
