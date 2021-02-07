@@ -9,7 +9,7 @@ simple javascript web UI to manage Tasmota IoT devices via mqtt websocket protoc
 * display environment monitor values of connected sensors
 * optional logging display
 #### Auto Discovery
-The auto discovery function evaluates LWT (last will testament) messages and uses tasmota mqtt status commands to query the properties of the Tamota devices.
+The auto discovery function evaluates LWT (last will testament) messages and uses Tasmota mqtt status commands to query the properties of the Tasmota devices.
 #### MQTT client websocket library
 The following javascript library is required for mqtt websocket communication and must be placed in the same directory as the tasView html page.
 https://github.com/hivemq/hivemq-mqtt-web-client/blob/master/js/mqttws31.js
