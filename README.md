@@ -9,6 +9,7 @@ simple javascript web UI to manage Tasmota IoT devices via mqtt websocket protoc
 * display environment monitor values of connected sensors
 * automatic zoom factor adjustment to fit small displays
 * optional logging textbox
+* optional CLI console to send commands to one or some or all connected tasmota devices
 #### Auto Discovery
 The auto discovery function trigger on LWT (last will testament) messages and uses Tasmota mqtt status commands to query the properties of the Tasmota devices.
 #### MQTT client websocket library
