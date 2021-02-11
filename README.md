@@ -23,7 +23,7 @@ The commands consist of three parts which are separated by spaces.
 * command name (like status or timezone ...)
 * command payload (optional)
 #### Installation
-* copy install.sh to an unix based web server folder
+To install tasView on an unix based web server e.g. apache, copy install.sh to a web server folder
 * chmod 744 install.sh
 * ./install.sh
 #### Screenshot
