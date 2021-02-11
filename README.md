@@ -16,7 +16,7 @@ The auto discovery function trigger on LWT (last will testament) messages and us
 The following javascript library is required for mqtt websocket communication and must be placed in the same directory as the tasView html page.
 https://github.com/hivemq/hivemq-mqtt-web-client/blob/master/js/mqttws31.js
 #### MQTT broker
-tasView requires a websocket enabled mqtt broker. The hostname of the mqtt broker and the websocket tcp port can be configured in the tasView javascript source.
+tasView requires a websocket enabled mqtt broker. The hostname of the mqtt broker and the websocket tcp port can be configured in the tasView javascript source. If the mqtt broker runs on the same host as the web server and the websocket port is 9001, no changes are needed.
 #### CLI Console
 The commands consist of three parts which are separated by spaces.
 * topic filter (* for all devices, a part of or a full device name, a regular expression)
