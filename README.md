@@ -22,9 +22,15 @@ The commands consist of three parts which are separated by spaces.
 * topic filter (* for all devices, a part of or a full device name, a regular expression)
 * command name (like status or timezone ...)
 * command payload (optional)
-#### Installation
-To install tasView on an unix based web server e.g. apache, copy install.sh to a web server folder
+#### tasView installation
+To install tasView on an unix based web server e.g. apache, copy install.sh to a web server folder and follow the steps below.
 * chmod 744 install.sh
 * ./install.sh
+#### mosquitto installation
+To install the mqtt broker mosquitto on an unix based host follow the steps below.
+* sudo apt get mosquitto
+* modify the configuration file /etc/mosquitto/mosquitto.conf as published in the repository
+* sudo systemctl stop mosquitto.service
+* sudo systemctl start mosquitto.service
 #### Screenshot
 ![IMAGE ALT TEXT HERE](https://www.dorstel.de/github/tasView.png?)
