@@ -23,4 +23,4 @@ The commands consist of three parts which are separated by spaces.
 * command name (like status or timezone ...)
 * command payload (optional)
 #### Screenshot
-![IMAGE ALT TEXT HERE](https://www.dorstel.de/github/tasView.png)
+![IMAGE ALT TEXT HERE](https://www.dorstel.de/github/tasView.png?)
