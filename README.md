@@ -22,5 +22,9 @@ The commands consist of three parts which are separated by spaces.
 * topic filter (* for all devices, a part of or a full device name, a regular expression)
 * command name (like status or timezone ...)
 * command payload (optional)
+#### Installation
+* copy install.sh to an unix based web server folder
+* chmod 744 install.sh
+* ./install.sh
 #### Screenshot
 ![IMAGE ALT TEXT HERE](https://www.dorstel.de/github/tasView.png?)
