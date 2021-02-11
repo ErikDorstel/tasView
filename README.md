@@ -17,5 +17,12 @@ The following javascript library is required for mqtt websocket communication an
 https://github.com/hivemq/hivemq-mqtt-web-client/blob/master/js/mqttws31.js
 #### MQTT broker
 tasView requires a websocket enabled mqtt broker. The hostname of the mqtt broker and the websocket tcp port can be configured in the tasView javascript source.
+#### CLI Console
+The commands consist of three parts which are separated by spaces.
+* topic filter
+* command name
+* command payload (optional)
+The filter has several options.
+* "*" selektiert alle tasmota devices
 #### Screenshot
 ![IMAGE ALT TEXT HERE](https://www.dorstel.de/github/tasView.png)
