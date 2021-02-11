@@ -19,7 +19,7 @@ https://github.com/hivemq/hivemq-mqtt-web-client/blob/master/js/mqttws31.js
 tasView requires a websocket enabled mqtt broker. The hostname of the mqtt broker and the websocket tcp port can be configured in the tasView javascript source.
 #### CLI Console
 The commands consist of three parts which are separated by spaces.
-* topic filter (* for all devices, a port of or a full device name, a regular expression)
+* topic filter (* for all devices, a part of or a full device name, a regular expression)
 * command name (like status or timezone ...)
 * command payload (optional)
 #### Screenshot
