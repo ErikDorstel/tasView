@@ -27,7 +27,7 @@ To install tasView on an unix based web server e.g. apache, copy install.sh to a
 * chmod 744 install.sh
 * ./install.sh
 #### mosquitto installation
-To install the mqtt broker mosquitto on an unix based host and enable websockets, follow the steps below.
+To install the mqtt broker mosquitto on a debian linux based host and enable websockets, follow the steps below.
 * sudo apt get mosquitto
 * modify the configuration file /etc/mosquitto/mosquitto.conf as published in the repository
 * sudo systemctl stop mosquitto.service
