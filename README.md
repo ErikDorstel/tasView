@@ -23,7 +23,7 @@ The commands consist of three parts which are separated by spaces.
 * command name (like status or timezone ...)
 * command payload (optional)
 
-The additional command "set" sets the subscribe topic to the topic filter and thus restricts the display of the logging. The topic filter "*" sets the subscribe topic to "#".
+A click on the last field of a tasmota device sets the filter topic to the topic of the device. The additional command "set" sets the subscribe topic to the topic filter and thus restricts the display of logging to the specified topic. The topic filter "*" sets the subscribe topic to "#".
 #### tasView installation
 To install tasView on an unix based web server e.g. apache, copy install.sh to a web server folder and follow the steps below.
 * chmod 744 install.sh
