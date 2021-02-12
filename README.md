@@ -22,6 +22,7 @@ The commands consist of three parts which are separated by spaces.
 * topic filter (* for all devices, a part of or a full device name, a regular expression)
 * command name (like status or timezone ...)
 * command payload (optional)
+
 The additional command "set" sets the subscribe topic to the topic filter and thus restricts the display of the logging. The topic filter "*" sets the subscribe topic to "#".
 #### tasView installation
 To install tasView on an unix based web server e.g. apache, copy install.sh to a web server folder and follow the steps below.
@@ -34,4 +35,4 @@ To install the mqtt broker mosquitto on a debian linux based host and enable web
 * sudo systemctl stop mosquitto.service
 * sudo systemctl start mosquitto.service
 #### Screenshot
-![IMAGE ALT TEXT HERE](https://www.dorstel.de/github/tasView.png?)
+![IMAGE ALT TEXT HERE](https://www.dorstel.de/github/tasView.png)
