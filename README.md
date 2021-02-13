@@ -7,6 +7,7 @@ simple javascript web UI to manage Tasmota IoT devices via mqtt websocket protoc
 * display up to 4 analog inputs per device
 * display energy monitor values with auto scale
 * display environment monitor values of connected sensors
+* display dimmer and color values
 * automatic zoom factor adjustment to fit small displays
 * optional logging textbox
 * optional CLI console to send commands to one or some or all connected tasmota devices
