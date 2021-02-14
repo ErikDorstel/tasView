@@ -2,7 +2,7 @@
 simple javascript web UI to manage Tasmota IoT devices via mqtt websocket protocol
 #### Features
 * zero touch auto discovery of tasmota devices
-* control up to 4 power switches per device
+* controls up to 4 power switches per device
 * shows up to 4 switch inputs per device
 * shows up to 4 analog inputs per device
 * shows energy monitor values with auto scale
